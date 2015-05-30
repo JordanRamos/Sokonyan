@@ -1,0 +1,22 @@
+/**
+ * css du popUp "Compte bien créer".
+ */
+
+.accountCreatedText {
+    margin-top: 1.56%;
+}
+
+
+.accountCreatedTitle {
+    text-align: center;
+    padding-top: 0.15%;
+    font-size: 1.3em;
+}
+
+
+.accountCreatedDesc {
+	text-align: center;
+	line-height: 150%;
+	font-size: 0.8em;
+    padding-top: 5.46%;
+}

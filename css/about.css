@@ -1,0 +1,40 @@
+/**
+ * Css de about
+ */
+.AboutScreen {
+	position: absolute;
+	background-repeat: no-repeat;
+}
+
+
+.aboutText {
+    margin-top: 0%;
+}
+
+
+.title {
+    text-align: center;
+    padding-top: 3.125%;
+    font-size: 1.3em;
+}
+
+
+.desc {
+	text-align: center;
+	line-height: 150%;
+    padding-top: 1.56%;
+}
+
+
+.buttonCloseAbout {
+    position: absolute;
+    text-align: center;
+    font-family:Fipps, sans-serif;
+    background-size: 100% 100%;
+    font-size: 0.8em;
+    left: 41%;
+    top: 75%;
+    height: 13.56%;
+    width: 20.13%;
+    cursor:pointer;
+}

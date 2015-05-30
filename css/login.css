@@ -1,0 +1,105 @@
+/**
+ * Css de la page de connexion
+ */
+.topDescription {
+	font-family:Fipps, sans-serif;
+	font-size: 1.3em;
+	position: absolute;
+	left: 40.9%;
+	top: 25%;
+	text-shadow: 1px 1px 1px #bbb;
+}
+
+.botDescription {
+	font-family:Fipps, sans-serif;
+	font-size: 1em;
+	position: absolute;
+	left: 12.3%;
+	top: 82.8%;
+	text-shadow: 1px 1px 1px #bbb;
+}
+
+.loginBackground {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-image: url(../assets/img/sprite/ui/loginScreen/Background.png);
+    background-size: 100% 100%;
+}
+
+
+.textBoxLogin {
+	position: absolute;
+	left: 36.4%;
+	top: 39%;
+	text-align:center;
+	font-family:Fipps, sans-serif;
+	font-size: 0.7em;
+	background: #F1F1F1 url(../assets/img/sprite/ui/loginScreen/iconUser.png) no-repeat;
+    background-size: 5%;
+    background-position: 10px;
+    padding: 10px 10px 10px 25px;
+    height: 7%;
+    width: 25%;
+    border: 1px solid #CCC;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+    box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+}
+
+.textBoxLogin:focus {
+    background-color: #FFF;
+    border-color: #E8C291;
+    outline: none;
+    -moz-box-shadow: 0 0 0 1px #e8c291 inset;
+    -webkit-box-shadow: 0 0 0 1px #E8C291 inset;
+    box-shadow: 0 0 0 1px #E8C291 inset;
+}
+
+.textBoxPassword {
+	position: absolute;
+	left: 36.5%;
+	top: 52.3%;
+	text-align:center;
+	font-family:Fipps, sans-serif;
+	font-size: 0.8em;
+	background: #F1F1F1 url(../assets/img/sprite/ui/loginScreen/iconPassword.png) no-repeat;
+    background-size: 5%;
+    background-position: 10px;
+    padding: 10px 10px 10px 25px;
+    height: 7%;
+    width: 25%;
+    border: 1px solid #CCC;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+    box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+}
+
+.textBoxPassword:focus {
+    background-color: #FFF;
+    border-color: #E8C291;
+    outline: none;
+    -moz-box-shadow: 0 0 0 1px #e8c291 inset;
+    -webkit-box-shadow: 0 0 0 1px #E8C291 inset;
+    box-shadow: 0 0 0 1px #E8C291 inset;
+}
+
+.buttonConnection {
+    position: absolute;
+    text-align: center;
+    font-family:Fipps, sans-serif;
+    background-size: 100% 100%;
+    font-size: 0.9em;
+    left: 40.5%;
+    top: 67%;
+    height: 10%;
+    width: 18%;
+    cursor:pointer;
+    padding-top: 1.25%;
+}

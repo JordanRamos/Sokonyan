@@ -1,0 +1,52 @@
+/**
+ * Css de la page popUp "Jouer" : LevelSelect
+ */
+.buttonCloseLevelSelect {
+    position: absolute;
+    text-align: center;
+    font-family:Fipps, sans-serif;
+    background-size: 100% 100%;
+    font-size: 0.9em;
+    left: 39%;
+    top: 76%;
+    height: 13.56%;
+    width: 20.13%;
+    cursor:pointer;
+}
+
+#descTitleLevelSelect {
+    position: absolute;
+    font-size: 1em;
+    top: 5%;
+    left: 27%;
+    text-shadow: 1px 1px 1px #bbb;
+}
+
+.btn {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 7.65%;
+    height: 10.31%;
+    left: 25%;
+    top: 20%;
+}
+
+.btn span {
+    padding-left: 2.9%;
+}
+
+.btnLevel {
+    cursor: pointer;
+}
+
+.btnLock {
+    cursor: not-allowed;
+}
+
+.star {
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+}
